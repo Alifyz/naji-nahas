@@ -15,8 +15,6 @@ Naji Nahas is a service responsible for extracting financial data from Canal Ele
 This repository uses Heroku Pipelines to deploy the app to the customers. When a pull request is submitted to the repository a new "review app" is created at heroku pipelines for testing purposes, then when the changes are approved and merged the new version is deployed at "staging" for further testing.
 
  
-* [Deployment Dashboard](https://github.com/Incitte/itsmoney-nahas/deployments)
-
 
 ![Pipeline](assets/heroku.png)
 
