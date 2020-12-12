@@ -1,0 +1,26 @@
+{
+  "name": "itsmoney-cei",
+  "version": "1.0.0",
+  "description": "Web Scraping Tool to Integrate to CEI",
+  "main": "main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "nodemon src/main.js",
+    "test": "mocha"
+  },
+  "author": "Alifyz Pires",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "firebase-admin": "^9.0.0",
+    "kcors": "^2.2.2",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-connect": "^2.1.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^9.1.0",
+    "mocha": "^8.1.1",
+    "nodemon": "^2.0.4",
+    "puppeteer": "^5.0.0"
+  }
+}
